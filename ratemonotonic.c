@@ -1,8 +1,8 @@
 /*
-* Emmanuel A. Castillo, 004268444
-*
-sdfadfdssdfafsd* Description:
-*/
+ * Emmanuel A. Castillo, 004268444
+ *
+ * Description:
+ */
 #include <ctype.h>
 
 #include <stdio.h>
