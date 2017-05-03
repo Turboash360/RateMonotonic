@@ -55,7 +55,7 @@ task_sets *extract_task_sets(char* fileName)
 {
    FILE *file = openFile(fileName);
    char buff[BUFF_SIZE];
-   task_sets *task_sets;
+   task_sets *task_sets = NULL;
 
    while (fgets(buff, sizeof(buff), file) != EOF) {
       task_sets = updateTaskSet(task_sets, buff);

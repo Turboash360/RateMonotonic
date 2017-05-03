@@ -26,5 +26,3 @@ task_sets *add_task_set(task_sets* task_sets_head, char* name, int wcet, int per
 
    return new_task_set;
 }
-
-task_sets* extract_task_sets(char* fileName);

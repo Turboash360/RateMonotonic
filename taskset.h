@@ -12,6 +12,4 @@ task_sets *create_task_set(char* name, int wcet, int period);
 
 task_sets *add_task_set(task_sets* task_sets_head, char* name, int wcet, int period);
 
-task_sets* extract_task_sets(char* fileName);
-
 #endif
