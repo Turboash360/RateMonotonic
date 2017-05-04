@@ -2,9 +2,9 @@
 #define TASKSET_H
 
 typedef struct s_task_sets {
-   char* name;
-   int wcet;
-   int period;
+   char* name; // name of task
+   int wcet;   // worst case execution time
+   int period; // when the task gets run
    struct s_task_sets* next;
 } task_sets;
 
