@@ -1,15 +1,26 @@
 #ifndef TASKSET_H
 #define TASKSET_H
 
-typedef struct s_task_sets {
+typedef struct task {
    char* name; // name of task
    int wcet;   // worst case execution time
    int period; // when the task gets run
-   struct s_task_sets* next;
-} task_sets;
+} task;
 
-task_sets *create_task_set(char* name, int wcet, int period);
+typedef struct task_link {
+   task *task;
+   struct task_link *next;
+} task_link;
 
-task_sets *add_task_set(task_sets* task_sets_head, char* name, int wcet, int period);
+typedef struct task_list {
+   task_link* tasks;
+   int size;
+} task_list;
+
+task_list* initialize_task_set_list();
+
+void add_task_set_list(task_link *link, char* name, int wcet, int period);
+
+task *get_task(task_list *link, int index);
 
 #endif

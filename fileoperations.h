@@ -3,6 +3,8 @@
 
 #include <taskset.h>
 
-task_sets *extract_task_sets(char* fileName);
+task_list* extract_task_sets(char* fileName);
+
+void write_to_file(char* fileName, char* stringToWrite);
 
 #endif
