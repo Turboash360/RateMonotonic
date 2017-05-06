@@ -10,8 +10,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <fileoperations.h>
-#include <taskset.h>
+#include "fileoperations.h"
+#include "taskset.h"
 
 int main(int argc, char *argv[])
 {
