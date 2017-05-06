@@ -46,5 +46,6 @@ task *get_task(task_list *list, int index)
       task = link->task;
       index--;
    }
+
    return task;
 }
