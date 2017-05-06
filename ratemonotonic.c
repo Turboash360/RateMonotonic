@@ -31,10 +31,10 @@ int main(int argc, char *argv[])
    /* Implement Rate Monotonic algorithm. */
 
    /* Display files of link list: example to show how to grab data from the link list. */
-   printf("Task 1: %s, %s, %s\n", get_task(task_set_list, 0)->name, get_task(task_set_list, 0)->wcet, get_task(task_set_list, 0)->period);
-   printf("Task 2: %s, %s, %s\n", get_task(task_set_list, 1)->name, get_task(task_set_list, 1)->wcet, get_task(task_set_list, 1)->period);
-   printf("Task 3: %s, %s, %s\n", get_task(task_set_list, 2)->name, get_task(task_set_list, 2)->wcet, get_task(task_set_list, 2)->period);
-   printf("Task 4: %s, %s, %s\n", get_task(task_set_list, 3)->name, get_task(task_set_list, 3)->wcet, get_task(task_set_list, 3)->period);
+   printf("Task 1: %s, %d, %d\n", get_task(task_set_list, 0)->name, get_task(task_set_list, 0)->wcet, get_task(task_set_list, 0)->period);
+   printf("Task 2: %s, %d, %d\n", get_task(task_set_list, 1)->name, get_task(task_set_list, 1)->wcet, get_task(task_set_list, 1)->period);
+   printf("Task 3: %s, %d, %d\n", get_task(task_set_list, 2)->name, get_task(task_set_list, 2)->wcet, get_task(task_set_list, 2)->period);
+   printf("Task 4: %s, %d, %d\n", get_task(task_set_list, 3)->name, get_task(task_set_list, 3)->wcet, get_task(task_set_list, 3)->period);
 
    /* Write to schedule file. */
    write_to_file(scheduleFile, "This is a test\n");
