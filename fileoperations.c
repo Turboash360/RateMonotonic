@@ -82,23 +82,6 @@ task_list *extract_task_sets(char* fileName)
    return list;
 }
 
-void task_set_array(task *task_array, task_list *list, size_t size)
-{
-   int task_set_idx;
-   task_link *tasks = list->tasks;
-
-   for (task_set_idx = 0; task_set_idx < (int)size; task_set_idx++)
-   {
-      task_array->name = tasks->task->name;
-      task_array->period = tasks->task->period;
-      task_array->wcet = tasks->task->wcet;
-      task_array++;
-      tasks = tasks->next;
-   }
-
-   task_array = task_array - size;
-}
-
 void write_to_file(char* fileName, char* stringToWrite)
 {
    FILE *file = openFile(fileName, "a+");

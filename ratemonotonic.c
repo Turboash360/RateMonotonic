@@ -25,6 +25,8 @@ int main(int argc, char *argv[])
    task_list *task_set_list = extract_task_sets(taskSetFile);
 
    /* Validate task set if it is scheduleable, if not error out. */
+   
+   /* Determine hyper period and put as first line of schedule.txt */
 
    /* Implement Rate Monotonic algorithm. */
 
