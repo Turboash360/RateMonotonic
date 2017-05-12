@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1494563930 source:/home/pi/csusm/RateMonotonic/RateMonotonic/fileoperations.c
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"taskset.h"
+
+1494563930 /home/pi/csusm/RateMonotonic/RateMonotonic/taskset.h
+
+1494563930 source:/home/pi/csusm/RateMonotonic/RateMonotonic/taskset.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"taskset.h"
+
