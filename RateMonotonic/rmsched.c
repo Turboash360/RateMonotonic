@@ -1,8 +1,10 @@
 /*
 * Group Members:
 * Emmanuel A. Castillo, 004268444
-*
-* Description:
+* Ashwin Paramashivan
+* Jesus Rivera
+* Edgar Cruz
+* Description: 
 */
 #include <ctype.h>
 
