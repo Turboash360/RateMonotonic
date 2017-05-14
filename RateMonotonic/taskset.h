@@ -7,6 +7,11 @@ typedef struct task {
    int period; // when the task gets run
 } task;
 
+typedef struct task_run {
+    int taskIndex;
+    int periodRan;
+} task_run;
+
 typedef struct task_link {
    task *task;
    struct task_link *next;

@@ -6,11 +6,24 @@
 	<string.h>
 	"taskset.h"
 
-1494563930 /home/pi/csusm/RateMonotonic/RateMonotonic/taskset.h
+1494752685 /home/pi/csusm/RateMonotonic/RateMonotonic/taskset.h
 
 1494563930 source:/home/pi/csusm/RateMonotonic/RateMonotonic/taskset.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	"taskset.h"
+
+1494755976 source:/home/pi/csusm/RateMonotonic/RateMonotonic/ratemonotonic.c
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	<semaphore.h>
+	"fileoperations.h"
+	"taskset.h"
+
+1494563930 /home/pi/csusm/RateMonotonic/RateMonotonic/fileoperations.h
 	"taskset.h"
 
