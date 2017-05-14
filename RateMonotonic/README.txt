@@ -16,7 +16,7 @@ defined by a taskset.txt file.
 -------------------------------------------------------
 RUNNING EXECUTABLE FILE ONLY
 -------------------------------------------------------
-Refer to Step 4 and/or Step 5 
+
 in the "COMPILING & RUNNING" section below.
 
 -------------------------------------------------------
