@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include <math.h>
+
 #include <pthread.h>
 #include <semaphore.h>
 
@@ -279,6 +281,12 @@ void runRateMonotonicAlgorithm()
 
 int main(int argc, char *argv[])
 {
+   /* Validate arguments */
+   if(argc != 4) {
+      printf("Usage: %s <nperiods> <taskset.txt> <schedule.txt>\n", argv[0]);
+      exit(EXIT_FAILURE);
+    }
+
    /* Set up variables to represent arguments. */
    char *taskSetFile = argv[2];
    SCHEDULE_FILE = argv[3];
